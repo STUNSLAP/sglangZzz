@@ -60,7 +60,7 @@ from sglang.test.unified_allocator_fixtures import (
     build_tri_pool,
 )
 
-register_cpu_ci(est_time=11, suite="base-a-test-cpu")
+register_cpu_ci(est_time=9, suite="base-a-test-cpu")
 
 PAGE = 4
 D2H = ("controller", "write")
